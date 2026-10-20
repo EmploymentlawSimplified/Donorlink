@@ -1,0 +1,20 @@
+NEW START PROJECT — DONATION LINK UPDATE
+
+The public/ folder contains the 20 files supplied in this chat.
+Only donation link destinations in 12 HTML pages were changed.
+All 27 Donate navigation links/buttons now point directly to:
+https://www.crowdfunder.co.uk/checkout/a-new-start-in-torbay/start
+
+The existing donate.html page is retained for direct visitors; its donation buttons use the new checkout URL too.
+Design, styles, images, forms and scripts are unchanged.
+
+PUBLISHING
+1. Back up your current Cloudflare project/deployment.
+2. Merge the contents of public/ into your EXISTING public website folder, replacing matching filenames.
+3. Keep all existing Worker code, route settings, deployment configuration, secrets and files not included here.
+4. Deploy through the same existing Cloudflare process.
+5. On the published site check Donate from the homepage, navigation and footer. Check referral forms and Staff Portal still open as before.
+
+This is a public-file update, NOT a complete Worker/backend project. Do not delete your existing project or replace it with this folder alone.
+The live website has not been updated by preparation of this ZIP.
+Checkout URL verified in the HTML; no payment was initiated or tested.
